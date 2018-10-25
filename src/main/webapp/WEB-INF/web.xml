@@ -5,19 +5,17 @@
 <web-app>
   <display-name>CoderGirl 2018 Hello Servlet</display-name>
   <servlet>
-    <servlet-name>HelloServlet</servlet-name>
-    <servlet-class>servlets.HelloServlet</servlet-class>
+    <servlet-name>Recipe</servlet-name>
+    <servlet-class>servlets.RecipeServlet</servlet-class>
   </servlet>
+
+
   <servlet>
     <servlet-name>RedirectServlet</servlet-name>
     <servlet-class>servlets.RedirectServlet</servlet-class>
   </servlet>
 
 
-  <servlet-mapping>
-    <servlet-name>HelloServlet</servlet-name>
-    <url-pattern>/hello</url-pattern>
-  </servlet-mapping>
   <servlet-mapping>
     <servlet-name>RedirectServlet</servlet-name>
     <url-pattern>/redirect</url-pattern>
