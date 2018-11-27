@@ -1,0 +1,23 @@
+        /*Global styles
+            ------------------*/
+              body{
+                  background-image: url('kitchen.jpg');
+                  background-repeat: no-repeat;
+                  background-attachment: fixed;
+                  background-position: center center;
+
+                  }
+
+
+      /*Header and Footer styles
+      ------------------*/
+      h1{
+            font-family: ;
+            font-size: 30px;
+            text-align: 25% 75%;
+        }
+
+       footer{
+            background: #3AB8C4;
+            text-align: bottom center;
+       }
