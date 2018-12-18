@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ee0b74b-eee1-40b0-a470-2cfb9a719ee3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7ee0b74b-eee1-40b0-a470-2cfb9a719ee3" name="Default" comment="YOLO">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaproject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/DBConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database/DBConnector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/EnvironmentVariables.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/LoadDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/Recipe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/HelloServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/RecipeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/RecipeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/RedirectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/RedirectServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,6 +36,7 @@
         <counts>
           <entry key="java" value="178" />
           <entry key="jsp" value="200" />
+          <entry key="txt" value="4" />
           <entry key="xml" value="30" />
         </counts>
       </usages-collector>
@@ -58,6 +44,7 @@
         <counts>
           <entry key="JAVA" value="178" />
           <entry key="JSP" value="200" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="30" />
         </counts>
       </usages-collector>
@@ -184,8 +171,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1487" />
+    <option name="y" value="262" />
     <option name="width" value="1280" />
     <option name="height" value="721" />
   </component>
@@ -295,7 +283,7 @@
     <property name="SearchEverywhereHistoryKey" value="set background image&#9;PSI&#9;JAVA://com.sun.deploy.ui.UITextArea#setBackgroundImage" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545153976017" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545157605158" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -416,8 +404,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531353468069</updated>
-      <workItem from="1545149502712" duration="5085000" />
+      <workItem from="1545149502712" duration="6588000" />
     </task>
+    <task id="LOCAL-00001" summary="YOLO">
+      <created>1545155554365</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545155554365</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -429,14 +425,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5085000" />
+    <option name="totallyTimeSpent" value="6588000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1487" y="262" width="1280" height="721" extended-state="0" />
     <layout>
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.83046967" visible="true" weight="0.20784102" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.83046967" visible="true" weight="0.32089552" />
       <window_info id="Structure" order="1" sideWeight="0.16953036" side_tool="true" weight="0.20784102" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -448,14 +443,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6666667" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946293" weight="0.33887044" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.36212623" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4991708" visible="true" weight="0.6193182" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.61064893" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49946293" weight="0.13732004" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053704" side_tool="true" weight="0.36434108" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50082916" side_tool="true" visible="true" weight="0.6193182" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
@@ -500,6 +495,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="YOLO" />
+    <option name="LAST_COMMIT_MESSAGE" value="YOLO" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
