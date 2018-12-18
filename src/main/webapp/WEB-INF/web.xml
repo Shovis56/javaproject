@@ -9,6 +9,10 @@
     <servlet-class>servlets.RecipeServlet</servlet-class>
   </servlet>
 
+  <servlet>
+    <servlet-name>AjaxRecipes</servlet-name>
+    <servlet-class>servlets.AjaxRecipes</servlet-class>
+  </servlet>
 
   <servlet>
     <servlet-name>RedirectServlet</servlet-name>
@@ -20,5 +24,12 @@
     <servlet-name>RedirectServlet</servlet-name>
     <url-pattern>/redirect</url-pattern>
   </servlet-mapping>
-
+  <servlet-mapping>
+    <servlet-name>Recipe</servlet-name>
+    <url-pattern>/recipes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AjaxRecipes</servlet-name>
+    <url-pattern>/ajaxrecipes</url-pattern>
+  </servlet-mapping>
 </web-app>

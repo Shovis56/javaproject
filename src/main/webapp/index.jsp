@@ -8,6 +8,30 @@
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <
+    <script>
+        $(document).ready(function(){
+            $("#vanilla").click(function(){
+
+
+                $.get("/ajaxrecipes", function(data, status){
+
+
+                if(status == "success")
+                    alert("Data: " + data + "\nStatus: " + status);
+                $.innerHTML()
+                if(status == "error")
+                    alert("Error: " + xhr.status + ": " + xhr.statusText)
+
+
+                });
+            });
+        });
+    </script>
+
+
     <title>Bare Pantry: Guide to finding new recipes</title>
 
 </head>
@@ -124,23 +148,23 @@
 </table>
 <h3> Dairy Selections: </h3>
 Butter
-<input type ="radio" name"ingredient" value="butter" />
+<input type ="radio" name="ingredient" value="butter" />
 Milk
-<input type ="radio" name"ingredient" value="milk" />
+<input type ="radio" name="ingredient" value="milk" />
 Egg
-<input type ="radio" name"ingredient" value="egg" />
+<input type ="radio" name="ingredient" value="egg" />
 </p>
 
 <h3> Sweetener Selections: </h3>
 Brown Sugar
-<input type ="radio" name"ingredient" value="brown sugar" />
+<input type ="radio" name="ingredient" value="brown sugar" />
 Sugar
-<input type ="radio" name"ingredient" value="sugar" />
+<input type ="radio" name="ingredient" value="sugar" />
 </p>
 
 <h3> Spices Selections: </h3>
 Vanilla
-<input type ="radio" name"ingredient" value="vanilla" />
+<input type ="radio" name="ingredient" id="vanilla" value="vanilla" />
 </p>
 
 

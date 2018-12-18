@@ -1,7 +1,4 @@
-servlets/RecipeServlet.class
-database/EnvironmentVariables.class
-database/Recipe.class
-database/LoadDriver.class
-servlets/HelloServlet.class
-database/DBConnector.class
-servlets/RedirectServlet.class
+servlets\RecipeServlet.class
+servlets\AjaxRecipes.class
+servlets\RedirectServlet.class
+database\DBConnector.class
