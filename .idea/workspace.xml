@@ -172,9 +172,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1487" />
+    <option name="x" value="-1866" />
     <option name="y" value="262" />
-    <option name="width" value="1280" />
+    <option name="width" value="1659" />
     <option name="height" value="721" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -283,7 +283,7 @@
     <property name="SearchEverywhereHistoryKey" value="set background image&#9;PSI&#9;JAVA://com.sun.deploy.ui.UITextArea#setBackgroundImage" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545157605158" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545160138927" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
