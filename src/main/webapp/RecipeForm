@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>Adding Your Favorite Recipes</title>
+</head>
+<body>
+    <center>
+        <h1> Recipe Directory</h1>
+        <h2>
+            <a href="/new">Add New Recipe</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="/list">List All Recipes</a>
+        </h2>
+    </center>
+    <div align="center">
+        <c:if test="${recipe != null}">
+            <form action="update" method="post">
+        </c:if>
+        <c:if test="${book == null}">
+            <form action="insert" method="post">
+        </c:if>
+        <table border="1" cellpadding="5">
+            <caption>
+                <h2>
+                    <c:if test"${recipe != null}">
+                        Edit Recipe
+                    </c:if>
+                    <c:if test="${recipe == null}">
+                        Add New Recipe
+                    </c:if>
+                </h2>
+            </caption>
+                <c:if test="${recipe != null">
+                    <input type="hidden" name="id" value="<c:out value='${recipe.id}' />" />
+                </c:if>
+            <tr>
+                <th>Name: </th>
+                <td>
+                    <input type="text" name="recipeName" size="45"
+                            value="<c:out value='${recipe.recipeName}' />"/>
+                </td>
+            </tr>
+            <tr>
+                <th>Ingredient: </th>
+                <td>
+                    <input type="text" name"ingredient" size="45"
+                            value="<c:out value='${recipe.ingredient}' />" />
+                </td>
+            </tr>
+              <tr>
+                  <th>Quantity: </th>
+                  <td>
+                  <input type="text" name"quantity" size="45"
+                   value="<c:out value='${recipe.quantity}' />" />
+                  </td>
+              </tr>
+              <tr>
+                  <th>Measurement: </th>
+                  <td>
+                  <input type="text" name"quantityUnit" size="45"
+                          value="<c:out value='${recipe.quantityUnit}' />" />
+                  </td>
+              </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Save" />
+                 </td>
+            </tr>
+         </table
+         </form>
+     </div>
+</body>
+</html>

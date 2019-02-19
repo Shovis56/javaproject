@@ -1,4 +1,5 @@
-servlets\RecipeServlet.class
-servlets\AjaxRecipes.class
-servlets\RedirectServlet.class
-database\DBConnector.class
+servlets/RecipeServlet.class
+database/Recipe.class
+database/DBConnector.class
+database/RecipeDAO.class
+servlets/RedirectServlet.class

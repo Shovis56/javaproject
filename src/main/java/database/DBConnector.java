@@ -1,16 +1,17 @@
 package database;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnector {
     private Connection conn;
-    public DBConnector(){
-        try{
+
+    public DBConnector() {
+        try {
             this.conn =
-                    DriverManager.getConnection("jdbc:mysql://localhost:3306/MyRecipeBook","root","joshsar56");
-        }
-        catch (SQLException ex){
+                    DriverManager.getConnection("jdbc:mysql://localhost:3306/MyRecipeBook?", "root", "joshsar56");
+        } catch (SQLException ex) {
             System.out.println("SQLException: " + ex.getMessage());
             System.out.println("SQLState: " + ex.getSQLState());
             System.out.println("VendorError: " + ex.getErrorCode());
@@ -18,8 +19,7 @@ public class DBConnector {
         }
     }
 
-    public Connection getConn()
-    {
+    public Connection getConn() {
 
         return this.conn;
     }
